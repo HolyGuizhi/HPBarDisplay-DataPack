@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "player": {
+      "looking_at": {
+        "nbt": "{Tags:[\"live\"]}",
+        "distance": {
+          "absolute": {
+            "min": 0.0,
+            "max": 5.0
+          }
+        }
+      }
+    }
+  }
+}
